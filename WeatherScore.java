@@ -3,15 +3,15 @@ public class WeatherScore
 {
     public static void main(String[] args){
     Scanner scnr = new Scanner(System.in);
-    System.out.println("Please enter expected temperature, rain and hudmidity for Day 1:");
-    System.out.println("Please enter expected temperature, rain and hudmidity for Day 2:");
     System.out.println("");
     double numTemp1, numTemp2, totalScore1, totalScore2;
     int scoreTemp1, scoreRain1, scoreHumid1, numRain1, numHumid1;
     int scoreTemp2, scoreRain2, scoreHumid2, numRain2, numHumid2;
+    System.out.println("Please enter expected temperature, rain and hudmidity for Day 1:");
     numTemp1 = scnr.nextDouble();
     numRain1 = scnr.nextInt();
     numHumid1 = scnr.nextInt();
+    System.out.println("Please enter expected temperature, rain and hudmidity for Day 2:");
     numTemp2 = scnr.nextDouble();
     numRain2 = scnr.nextInt();
     numHumid2 = scnr.nextInt();
